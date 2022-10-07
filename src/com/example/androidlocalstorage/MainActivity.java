@@ -12,7 +12,11 @@ public class MainActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		mainFragment();
 		
+	}
+	
+	public void mainFragment(){
 		if (savedInstanceState == null) 
 		{
 			MainFragment myFragment = new MainFragment();
